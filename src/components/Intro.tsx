@@ -41,8 +41,8 @@ export default function Intro({ onStart }: IntroProps) {
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="이름을 입력하세요"
-                maxLength={8}
+                placeholder="이름(페어명)을 입력하세요"
+                maxLength={10}
                 className="w-full px-4 py-3 bg-white/10 border border-white/20 text-white placeholder-white/50 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#e1e5fe] transition-all"
                 required
               />
