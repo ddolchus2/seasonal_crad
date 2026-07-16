@@ -251,8 +251,9 @@ export default function Result({ name, scores, onRestart }: ResultProps) {
             <div 
               ref={cardRef}
               id="result-card" 
-              className="w-[805px] h-[1431px] relative flex flex-col items-center py-[80px] overflow-hidden shadow-2xl"
+              className="notranslate w-[805px] h-[1431px] relative flex flex-col items-center py-[80px] overflow-hidden shadow-2xl"
               style={{ backgroundColor: currentColors[0]?.color || '#e2e8f0' }}
+              translate="no"
             >
               {/* Blurred background if image exists */}
               {croppedImage && (
