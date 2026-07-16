@@ -1,0 +1,6 @@
+{
+  "name": "사계절 진단기 (Four Seasons Personality Test)",
+  "description": "MBTI 진단기와 같은 형태의 질문을 통해 성향을 분류하고 사계절로 표현하는 모바일 친화적 진단기입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
